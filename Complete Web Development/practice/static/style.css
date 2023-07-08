@@ -1,0 +1,80 @@
+body::before{
+    opacity: 0.5;
+    content: "";
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url('../jonny-gios-eXheBaO9Q80-unsplash.jpg') no-repeat center center cover;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin: 4px 4px;
+    padding: 3px 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 7%;
+    text-align: center;
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+h1{
+    color: tomato;
+    display: block;
+    margin: auto;
+    width: 71%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin: 20px 279px;
+    color: darkturquoise;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea{
+    border: 2px solid black;
+    border: 2px solid black;
+    display: block;
+    width: 46%;
+    margin: 5px auto;
+    padding: 4px 8px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+body{
+    background-image: url(../jonny-gios-eXheBaO9Q80-unsplash.jpg);
+    position: static;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: #302d2d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}

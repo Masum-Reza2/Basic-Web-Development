@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using plain html in pug</title>
+
+    <!-- here we include the css file  -->
+    style
+        include ../static/style.css
+</head>
+<body>
+    <h1>this is heading here we are going to learn how to use html on pug</h1>
+    <nav id="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">services</a></li>
+            <li><a href="">Contact-us</a></li>
+        </ul>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus id suscipit earum animi exercitationem numquam autem similique nihil ratione nisi praesentium deleniti voluptatem natus ipsam distinctio a fugit, nemo labore. Blanditiis, maxime at, architecto quas quaerat itaque saepe ad quidem ut atque suscipit unde dignissimos?</p>
+
+    <h2>Join Now</h2>
+    <form action="">
+        <input type="text" name="name" id="name" placeholder="Write your name here">
+        <input type="text" name="age" id="age" placeholder="Write your age here">
+        <input type="number" name="number" id="number" placeholder="Write your Phone Number here">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write your address there"></textarea>
+        <textarea name="" id="" cols="30" rows="10" placeholder="More about you"></textarea>
+        <button class="btn">Submit</button>
+    </form>
+</body>
+</html>
